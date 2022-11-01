@@ -3,6 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import headerImg from "../assets/img/header-img.svg";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
+import contact from "./Contact";
 import TrackVisibility from 'react-on-screen';
 
 const Banner = () => {
@@ -58,7 +59,7 @@ const Banner = () => {
                                     <span className={"tagline"}>Welcome!</span>
                                     <h1>{`Hi! I'm Kelechi Divine a `}
                                         <span className={"txt-rotate"} dataPeriod={"1000"} data-rotate='[ "Java Fullstack Engineer" ]'>
-                                            <span className="wrap">{text}</span>
+                                            <span className={"wrap"}>{text}</span>
                                         </span>
                                     </h1>
                                     <p>
