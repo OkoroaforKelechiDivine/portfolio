@@ -10,7 +10,7 @@ const Banner = () => {
     const [ isDeleting, setIsDeleting ] = useState(false);
     const [ text, setText ] = useState('');
     const [ delta, setDelta ] = useState(300 - Math.random() * 100);
-    const [ setIndex ] = useState(1);
+    const [ index, setIndex ] = useState(1);
     const toRotate = [ "Java Fullstack Engineer" ];
     const period = 2000;
 
@@ -57,7 +57,7 @@ const Banner = () => {
                                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                                     <span className={"tagline"}>Welcome!</span>
                                     <h1>{`Hi! I'm Kelechi Divine a `}
-                                        <span className={"txt-rotate"} dataPeriod={"1000"} data-rotate='[ "Java full stack engineer" ]'>
+                                        <span className={"txt-rotate"} dataPeriod={"1000"} data-rotate='[ "Java Fullstack Engineer" ]'>
                                             <span className="wrap">{text}</span>
                                         </span>
                                     </h1>
