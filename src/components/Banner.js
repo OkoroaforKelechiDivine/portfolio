@@ -3,7 +3,6 @@ import { Container, Row, Col } from "react-bootstrap";
 import headerImg from "../assets/img/header-img.svg";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
-import contact from "./Contact";
 import TrackVisibility from 'react-on-screen';
 
 const Banner = () => {
