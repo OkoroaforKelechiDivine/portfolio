@@ -94,7 +94,7 @@ nav.navbar {
 }
 
 nav.navbar.scrolled {
-  padding: 0px 0;
+  padding: 0 0;
   background-color: #121212;
 }
 
@@ -105,7 +105,7 @@ nav.navbar a.navbar-brand {
 nav.navbar .navbar-nav .nav-link.navbar-link {
   font-weight: 400;
   color: #fff !important;
-  letter-spacing: 0.8px;
+  letter-spacing: 1px;
   padding: 0 25px;
   font-size: 18px;
   opacity: 0.75;
@@ -176,7 +176,7 @@ span.navbar-text {
 
 .navbar-text button::before {
   content: "";
-  width: 0%;
+  width: 0;
   height: 100%;
   position: absolute;
   background-color: #fff;
@@ -260,7 +260,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .banner .tagline {
   font-weight: 700;
-  letter-spacing: 0.8px;
+  letter-spacing: 1px;
   padding: 8px 10px;
   background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
   border: 1px solid rgba(255, 255, 255, 0.5);
@@ -272,7 +272,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner h1 {
   font-size: 65px;
   font-weight: 700;
-  letter-spacing: 0.8px;
+  letter-spacing: 1px;
   line-height: 1;
   margin-bottom: 20px;
   display: block;
@@ -281,7 +281,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner p {
   color: #B8B8B8;
   font-size: 18px;
-  letter-spacing: 0.8px;
+  letter-spacing: 1px;
   line-height: 1.5em;
   width: 96%;
 }
@@ -291,7 +291,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-weight: 700;
   font-size: 20px;
   margin-top: 60px;
-  letter-spacing: 0.8px;
+  letter-spacing: 1px;
   display: flex;
   align-items: center;
 }
@@ -315,9 +315,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   0% {
     transform: translateY(-20px);
   }
+
   50% {
     transform: translateY(20px);
   }
+
   100% {
     transform: translateY(-20px);
   }
@@ -349,7 +351,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .skill p {
   color: #B8B8B8;
   font-size: 18px;
-  letter-spacing: 0.8px;
+  letter-spacing: 1px;
   line-height: 1.5em;
   margin: 14px 0 75px 0;
 }
@@ -415,7 +417,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   color: #fff;
   width: 100%;
   font-size: 17px;
-  letter-spacing: 0.8px;
+  letter-spacing: 1px;
   font-weight: 500;
   position: relative;
   transition: 0.3s ease-in-out;
@@ -445,7 +447,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .nav-link#projects-tabs-tab-first {
   border: 1px solid rgba(255, 255, 255, 0.5);
-  border-radius: 55px 0px 0px 55px;
+  border-radius: 55px 0 0 55px;
 }
 
 .nav-link#projects-tabs-tab-second {
@@ -498,7 +500,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .proj-txtx h4 {
   font-size: 30px;
   font-weight: 700;
-  letter-spacing: 0.8px;
+  letter-spacing: 1px;
   line-height: 1.1em;
 }
 
@@ -506,7 +508,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-style: italic;
   font-weight: 400;
   font-size: 15px;
-  letter-spacing: 0.8px;
+  letter-spacing: 1px;
 }
 
 .background-image-right {
@@ -544,7 +546,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   padding: 18px 26px;
   font-weight: 500;
   font-size: 18px;
-  letter-spacing: 0.8px;
+  letter-spacing: 1px;
   transition: 0.3s ease-in-out;
 }
 
@@ -621,7 +623,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .newsletter-bx h3 {
   font-weight: 700;
-  letter-spacing: 0.5px;
+  letter-spacing: 1px;
   line-height: 1.2em;
 }
 
@@ -673,7 +675,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   padding: 20px 65px;
   color: #fff;
   font-weight: 500;
-  letter-spacing: 0.5px;
+  letter-spacing: 1px;
   border-radius: 18px;
 }
 

@@ -40,19 +40,19 @@ const Skills = () => {
                                     <img src={meter1} alt={"Image"} />
                                     <h5>Java Backend</h5>
                                 </div>
-                                <div className="item">
+                                <div className={"item"}>
                                     {/* eslint-disable-next-line jsx-a11y/img-redundant-alt */}
                                     <img src={meter2} alt={"Image"} />
                                     <h5>Web Development</h5>
                                 </div>
-                                <div className="item">
+                                <div className={"item"}>
                                     {/* eslint-disable-next-line jsx-a11y/img-redundant-alt */}
                                     <img src={meter3} alt={"Image"} />
                                     <h5>Googling</h5>
                                 </div>
-                                <div className="item">
+                                <div className={"item"}>
                                     {/* eslint-disable-next-line jsx-a11y/img-redundant-alt */}
-                                    <img src={meter1} alt="Image" />
+                                    <img src={meter1} alt={"Image"} />
                                     <h5>Testing with JUnit and Postman</h5>
                                 </div>
                             </Carousel>
@@ -61,7 +61,7 @@ const Skills = () => {
                 </div>
             </div>
             {/* eslint-disable-next-line jsx-a11y/img-redundant-alt */}
-            <img className="background-image-left" src={colorSharp} alt="Image" />
+            <img className={"background-image-left"} src={colorSharp} alt={"Image"} />
         </section>
     )
 }

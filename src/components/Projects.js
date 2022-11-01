@@ -46,7 +46,7 @@ const Projects = () => {
     ];
 
     return (
-        <section className="project" id="project">
+        <section className={"project"} id="project">
             <Container>
                 <Row>
                     <Col size={12}>
