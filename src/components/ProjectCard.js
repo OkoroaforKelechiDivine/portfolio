@@ -1,4 +1,5 @@
 import { Col } from "react-bootstrap";
+import "../styles/projectCard.css"
 
 const ProjectCard = ({ title, description, imgUrl }) => {
     return (
@@ -7,7 +8,9 @@ const ProjectCard = ({ title, description, imgUrl }) => {
                 <img src={imgUrl}  alt={""}/>
                 <div className={"proj-txtx"}>
                     <h4>{title}</h4>
-                    <span>{description}</span>
+                    <a href={""} color={"white"}>
+                        <span>{description}</span>
+                    </a>
                 </div>
             </div>
         </Col>
