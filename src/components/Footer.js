@@ -15,23 +15,37 @@ const Footer = () => {
                     <Col size={12} sm={6} className={"text-center text-sm-end"}>
                         <div className={"social-icon"}>
                             {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-                            <a className={"bg-white"} href={"https://github.com/OkoroaforKelechiDivine"} target={"_blank"} rel="noreferrer">
+                            <a className={"bg-white"}
+                               href={"https://github.com/OkoroaforKelechiDivine"}
+                               target={"_blank"}
+                               rel={"noreferrer"}>
                                 <Github/>
                             </a>
                             {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-                            <a className={"bg-white"} href={"https://linkedin.com/in/kelechi-okoroafor"} target={"_blank"} rel="noreferrer">
+                            <a className={"bg-white"}
+                               href={"https://linkedin.com/in/kelechi-okoroafor"}
+                               target={"_blank"}
+                               rel={"noreferrer"}>
                                 <Linkedin/>
                             </a>
                             {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-                            <a className={"bg-white"} href={"https://www.facebook.com/profile.php?id=100080210275192"} target={"_blank"} rel="noreferrer">
+                            <a className={"bg-white"}
+                               href={"https://www.facebook.com/profile.php?id=100080210275192"}
+                               target={"_blank"}
+                               rel={"noreferrer"}>
                                 <Facebook/>
                             </a>
                             {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-                            <a className={"bg-white"} href={"https://twitter.com/kelechiDivine6"} target={"_blank"} rel="noreferrer">
+                            <a className={"bg-white"}
+                               href={"https://twitter.com/kelechiDivine6"}
+                               target={"_blank"}
+                               rel={"noreferrer"}>
                                 <Twitter/>
                             </a>
                             {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-                            <a className={"bg-white"} href={"https://medium.com/@okoroaforkelechi123"} target={"_blank"} rel="noreferrer">
+                            <a className={"bg-white"} href={"https://medium.com/@okoroaforkelechi123"}
+                               target={"_blank"}
+                               rel={"noreferrer"}>
                                 <Medium/>
                             </a>
                         </div>
