@@ -11,8 +11,12 @@ const Banner = () => {
     const [ text, setText ] = useState('');
     const [ delta, setDelta ] = useState(300 - Math.random() * 100);
     const [ index, setIndex ] = useState(1);
-    const toRotate = [ "Java Fullstack Engineer" ];
-    const period = 2000;
+    const toRotate = [
+        "I am Okoroafor Kelechi Divine, a multi-tasking Junior " +
+        "Java fullstack engineer from Lagos, Nigeria."
+    ];
+
+    const period = 10000;
 
     useEffect(() => {
         let ticker = setInterval(() => {
@@ -23,8 +27,8 @@ const Banner = () => {
     }, [text])
 
     const tick = () => {
-        let i = loopNum % toRotate.length;
-        let fullText = toRotate[i];
+        let index = loopNum % toRotate.length;
+        let fullText = toRotate[index];
         let updatedText = isDeleting ? fullText.substring(0, text.length - 1) : fullText.substring(0, text.length + 1);
 
         setText(updatedText);
@@ -55,9 +59,9 @@ const Banner = () => {
                         <TrackVisibility>
                             {({ isVisible }) =>
                                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                                    <span className={"tagline"}>Welcome!</span>
-                                    <h1>{`Hi! I'm Kelechi Divine a `}
-                                        <span className={"txt-rotate"} dataPeriod={"1000"} data-rotate='[ "Java Fullstack Engineer" ]'>
+                                    <span className={"tagline"}>Welcome, my friend!</span>
+                                    <h1>
+                                        <span className={"txt-rotate"} dataPeriod={"1000"} data-rotate='[ "" ]'>
                                             <span className={"wrap"}>{text}</span>
                                         </span>
                                     </h1>
