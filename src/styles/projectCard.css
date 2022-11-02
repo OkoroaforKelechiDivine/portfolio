@@ -1,0 +1,9 @@
+.proj-txtx a{
+    text-decoration: none;
+    color: white;
+}
+
+.proj-txtx a:hover{
+    color: green;
+    transition: .3s ease-in-out;
+}
