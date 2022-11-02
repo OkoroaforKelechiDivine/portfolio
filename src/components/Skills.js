@@ -33,8 +33,12 @@ const Skills = () => {
                     <div className={"col-12"}>
                         <div className={"skill-bx wow zoomIn"}>
                             <h2>Skills</h2>
-                            <p> Software Development, Object-Oriented Design (OOD), Object-Oriented Programming<br></br> Software Testing, Debugging, Computer Programming, Googling and Coding.</p>
-                            <Carousel responsive={responsive} infinite={true} className={"owl-carousel owl-theme skill-slider"}>
+                            <p> Software Development, Object-Oriented Design (OOD),
+                                Object-Oriented Programming<br></br> Software Testing, Debugging,
+                                Computer Programming, Googling and Coding.</p>
+                            <Carousel responsive={responsive}
+                                      infinite={true}
+                                      className={"owl-carousel owl-theme skill-slider"}>
                                 <div className={"item"}>
                                     {/* eslint-disable-next-line jsx-a11y/img-redundant-alt */}
                                     <img src={meter1} alt={"Image"} />
