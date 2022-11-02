@@ -54,5 +54,4 @@ const Newsletter = ({ status, message, onValidated }) => {
         </Col>
     )
 }
-
 export default Newsletter

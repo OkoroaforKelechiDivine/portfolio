@@ -8,11 +8,11 @@ const Footer = () => {
             <Container>
                 <Row className={"align-items-center"}>
                     <MailchimpForm />
-                    <Col size={12} sm={6}>
+                    <Col size={ 12 } sm={ 6 }>
                         <h1>zipDemon</h1>
                         {/*<img src={logo} alt={"Logo"} />*/}
                     </Col>
-                    <Col size={12} sm={6} className={"text-center text-sm-end"}>
+                    <Col size={ 12 } sm={ 6 } className={"text-center text-sm-end"}>
                         <div className={"social-icon"}>
                             {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
                             <a className={"bg-white"}
@@ -56,5 +56,4 @@ const Footer = () => {
         </footer>
     )
 }
-
 export default Footer
