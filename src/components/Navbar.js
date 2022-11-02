@@ -37,30 +37,51 @@ const NavBar = () => {
                     </Navbar.Toggle>
                     <Navbar.Collapse id={"basic-navbar-nav"}>
                         <Nav className={"ms-auto"}>
-                            <Nav.Link href={"#home"} className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>Home</Nav.Link>
-                            <Nav.Link href={"#skills"} className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>Skills</Nav.Link>
-                            <Nav.Link href={"#projects"} className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Projects</Nav.Link>
+                            <Nav.Link href={"#home"}
+                                      className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'}
+                                      onClick={() => onUpdateActiveLink('home')}>Home</Nav.Link>
+                            <Nav.Link href={"#skills"}
+                                      className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'}
+                                      onClick={() => onUpdateActiveLink('skills')}>Skills</Nav.Link>
+                            <Nav.Link href={"#projects"}
+                                      className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'}
+                                      onClick={() => onUpdateActiveLink('projects')}>Projects</Nav.Link>
                         </Nav>
                         <span className={"navbar-text"}>
                             <div className={"social-icon"}>
                                 {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-                                <a className={"bg-white"} href={"https://github.com/OkoroaforKelechiDivine"} target={"_blank"} rel="noreferrer">
+                                <a className={"bg-white"}
+                                   href={"https://github.com/OkoroaforKelechiDivine"}
+                                   target={"_blank"}
+                                   rel={"noreferrer"}>
                                     <Github/>
                                 </a>
                                 {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-                                <a className={"bg-white"} href={"https://linkedin.com/in/kelechi-okoroafor"} target={"_blank"} rel="noreferrer">
+                                <a className={"bg-white"}
+                                   href={"https://linkedin.com/in/kelechi-okoroafor"}
+                                   target={"_blank"}
+                                   rel={"noreferrer"}>
                                     <Linkedin/>
                                 </a>
                                 {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-                                <a className={"bg-white"} href={"https://www.facebook.com/profile.php?id=100080210275192"} target={"_blank"} rel="noreferrer">
+                                <a className={"bg-white"}
+                                   href={"https://www.facebook.com/profile.php?id=100080210275192"}
+                                   target={"_blank"}
+                                   rel={"noreferrer"}>
                                     <Facebook/>
                                 </a>
                                 {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-                                <a className={"bg-white"} href={"https://twitter.com/kelechiDivine6"} target={"_blank"} rel="noreferrer">
+                                <a className={"bg-white"}
+                                   href={"https://twitter.com/kelechiDivine6"}
+                                   target={"_blank"}
+                                   rel={"noreferrer"}>
                                     <Twitter/>
                                 </a>
                                 {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-                                <a className={"bg-white"} href={"https://medium.com/@okoroaforkelechi123"} target={"_blank"} rel="noreferrer">
+                                <a className={"bg-white"}
+                                   href={"https://medium.com/@okoroaforkelechi123"}
+                                   target={"_blank"}
+                                   rel={"noreferrer"}>
                                     <Medium/>
                                 </a>
                             </div>

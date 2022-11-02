@@ -8,20 +8,27 @@ import colorSharp from "../assets/img/color-sharp.png"
 const Skills = () => {
     const responsive = {
         superLargeDesktop: {
-            // the naming can be any, depends on you.
-            breakpoint: { max: 4000, min: 3000 },
+            breakpoint: {
+                max: 4000, min: 3000
+            },
             items: 5
         },
         desktop: {
-            breakpoint: { max: 3000, min: 1024 },
+            breakpoint: {
+                max: 3000, min: 1024
+            },
             items: 3
         },
         tablet: {
-            breakpoint: { max: 1024, min: 464 },
+            breakpoint: {
+                max: 1024, min: 464
+            },
             items: 2
         },
         mobile: {
-            breakpoint: { max: 464, min: 0 },
+            breakpoint: {
+                max: 464, min: 0
+            },
             items: 1
         }
     };
@@ -36,27 +43,27 @@ const Skills = () => {
                             <p> Software Development, Object-Oriented Design (OOD),
                                 Object-Oriented Programming<br></br> Software Testing, Debugging,
                                 Computer Programming, Googling and Coding.</p>
-                            <Carousel responsive={responsive}
-                                      infinite={true}
+                            <Carousel responsive={ responsive }
+                                      infinite={ true }
                                       className={"owl-carousel owl-theme skill-slider"}>
                                 <div className={"item"}>
                                     {/* eslint-disable-next-line jsx-a11y/img-redundant-alt */}
-                                    <img src={meter1} alt={"Image"} />
+                                    <img src={ meter1 } alt={"Image"} />
                                     <h5>Java Backend</h5>
                                 </div>
                                 <div className={"item"}>
                                     {/* eslint-disable-next-line jsx-a11y/img-redundant-alt */}
-                                    <img src={meter2} alt={"Image"} />
+                                    <img src={ meter2 } alt={"Image"} />
                                     <h5>Web Development</h5>
                                 </div>
                                 <div className={"item"}>
                                     {/* eslint-disable-next-line jsx-a11y/img-redundant-alt */}
-                                    <img src={meter3} alt={"Image"} />
+                                    <img src={ meter3 } alt={"Image"} />
                                     <h5>Googling</h5>
                                 </div>
                                 <div className={"item"}>
                                     {/* eslint-disable-next-line jsx-a11y/img-redundant-alt */}
-                                    <img src={meter1} alt={"Image"} />
+                                    <img src={ meter1 } alt={"Image"} />
                                     <h5>Testing with JUnit and Postman</h5>
                                 </div>
                             </Carousel>
@@ -65,9 +72,8 @@ const Skills = () => {
                 </div>
             </div>
             {/* eslint-disable-next-line jsx-a11y/img-redundant-alt */}
-            <img className={"background-image-left"} src={colorSharp} alt={"Image"} />
+            <img className={"background-image-left"} src={ colorSharp } alt={"Image"} />
         </section>
     )
 }
-
 export default Skills
