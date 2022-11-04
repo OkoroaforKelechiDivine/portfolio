@@ -54,9 +54,9 @@ const Projects = () => {
                             {({ isVisible }) =>
                                 <div className={ isVisible ? "animate__animated animate__fadeIn": ""}>
                                     <h2>Projects</h2>
-                                    <p> Strong in design and integration with intuitive problem-solving
-                                        skills. Proficient in JAVA, HTML, CSS, JAVASCRIPT,Spring-boot SQL and NoSQL.
-                                        Passionate about implementing and launching new projects. Ability
+                                    <p> I am strong in design and integration with intuitive problem-solving
+                                        skills also proficient in JAVA, HTML, CSS, JAVASCRIPT, Spring-boot, SQL and NoSQL.
+                                        I am passionate about implementing and launching new projects and have the ability
                                         to translate business requirements into technical solutions.
                                     </p>
                                     <Tab.Container id={"projects-tabs"} defaultActiveKey={"first"}>
