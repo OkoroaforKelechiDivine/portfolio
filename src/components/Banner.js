@@ -15,9 +15,7 @@ const Banner = () => {
         "I am Okoroafor Kelechi Divine, a multi-tasking Junior " +
         "Java fullstack engineer from Lagos, Nigeria."
     ];
-
     const period = 10000;
-
     useEffect(() => {
         let ticker = setInterval(() => {
             tick();
