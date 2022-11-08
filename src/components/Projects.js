@@ -11,7 +11,6 @@ import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
 const Projects = () => {
-
     const projects = [
         {
             title: "Youtube clone",
