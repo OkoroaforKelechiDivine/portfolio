@@ -4,7 +4,6 @@ import headerImg from "../assets/img/header-img.svg";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
-import {type} from "@testing-library/user-event/dist/type";
 
 const Banner = () => {
     const [ loopNum, setLoopNum ] = useState(0);
