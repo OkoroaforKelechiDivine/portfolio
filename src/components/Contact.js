@@ -2,17 +2,18 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import contactImg from "../assets/img/contact-img.svg";
 import 'animate.css';
+import { useForm } from '@formspree/react';
 import TrackVisibility from 'react-on-screen';
 
 const Contact = () => {
 
-    // const [state, handleSubmit] = useForm("xlevlleq");
-    // if (state.succeeded) {
-    //     console.log("Message sent")
-    //     return <p className={"success-message"}>
-    //         I have received your message, thank you!
-    //     </p>;
-    // }
+    const [state, handleSubmit] = useForm("xlevlleq");
+    if (state.succeeded) {
+        console.log("Message sent")
+        return <p className={"success-message"}>
+            I have received your message, thank you!
+        </p>;
+    }
 
     return (
         <section className={"contact"} id={"connect"}>
@@ -21,7 +22,7 @@ const Contact = () => {
                     <Col size={ 12 } md={ 6 }>
                         <TrackVisibility>
                             {({ isVisible }) =>
-                                <img className={isVisible ? "animate__animated animate__zoomIn" : ""}
+                                <img className={ isVisible ? "animate__animated animate__zoomIn" : "" }
                                      src={ contactImg }
                                      alt={"Contact Us"}
                                 />
@@ -33,8 +34,7 @@ const Contact = () => {
                             {({ isVisible }) =>
                                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                                     <h2>Get In Touch</h2>
-                                    <form action={"https://formspree.io/f/xlevlleq"} method={"POST"}
-                                          target={"_blank"}>
+                                    <form onSubmit={ handleSubmit }>
                                         <Row>
                                             <Col size={ 12 } sm={ 6 } className={"px-1"}>
                                                 <input name={"First name"} type={"text"}
@@ -60,7 +60,7 @@ const Contact = () => {
                                             <Col size={ 12 } className={"px-1"}>
                                                 <textarea name={"Message"} rows={"6"}
                                                           placeholder={"Message"} required></textarea>
-                                                <button value={"Send"}  type={"submit"}>
+                                                <button disabled={ state.submitting }  type={"submit"}>
                                                     <span>Submit</span></button>
                                             </Col>
                                         </Row>

@@ -13,16 +13,16 @@ const Banner = () => {
     const [ index, setIndex ] = useState(1);
     const listOfText = [
         "I am Okoroafor Kelechi Divine, a multi-tasking Junior " +
-        "Java fullstack engineer from Lagos, Nigeria."
+        "Java fullstack engineer from Nigeria."
     ];
-    const period = 10000;
+    const period = 100;
     useEffect(() => {
         let ticker = setInterval(() => {
             tick();
         }, delta);
 
         return () => { clearInterval(ticker) };
-    }, [text])
+    }, [ text ])
 
     const tick = () => {
         let index = loopNum % listOfText.length;
@@ -59,7 +59,7 @@ const Banner = () => {
                                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                                     <span className={"tagline"}>Welcome, my friend!</span>
                                     <h1>
-                                        <span className={"txt-rotate"} dataPeriod={"1000"} data-rotate='[ "" ]'>
+                                        <span className={"txt-rotate"} dataPeriod={"10"} data-rotate='[ "" ]'>
                                             <span className={"wrap"}>{ text }</span>
                                         </span>
                                     </h1>
