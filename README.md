@@ -2,7 +2,8 @@
 
 ## A clean, beautiful and responsive portfolio template for myself!
 
-![Uploading Screenshot (331).png…]()
+![Screenshot (331)](https://user-images.githubusercontent.com/106816493/201208152-01b009d5-c8b6-4c41-abeb-1de11606a997.png)
+
 
 #### You can clone the repository to get your `personal portfolio` . Feel free to use it as-is or customize it as much as you want.
 
