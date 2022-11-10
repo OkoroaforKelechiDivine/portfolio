@@ -22,18 +22,15 @@
 
 # Sections 😇
 
-✔️ Summary about me<br/>
-✔️ Skills<br/>
-✔️ Resume<br/>
-✔️ work experience<br/>
-✔️ Big Projects<br/>
-✔️ Achievements And Certifications 🏆<br/>
-✔️  Contact me<br/>
-✔️ Twitter Timeline<br/>
-✔️ Github Profile<br/>
-✔️ LinkedLn profile<br/>
+✔️ Banner<br/>
+✔️ Contacts<br/>
+✔️ Footer<br/>
+✔️ Navbar<br/>
+✔️ ProjectCard<br/>
+✔️ Project🏆<br/>
+✔️ Skill<br/>
 
-To view the Live example click <a href="https://ozifirebrand.github.io/portfolio/#home">here</a>
+To view the Live example click <a href="https://okoroaforkelechidivine.github.io/portfolio/">here</a>
 
 # Project Walk flow  🚀
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
@@ -66,7 +63,7 @@ When you are done with the setup, you should host your website online. We highly
 - Add a homepage property in this format*: https://{username}.github.io/{repo-name}
 ```javascript
 {
-    homepage": "https://ozifirebrand.github.io/portfolio/
+    homepage": "https://okoroaforkelechidivine.github.io/portfolio/"
  },
 ```
 At this point, the React app's `package.json` file includes a property named `homepage`.
