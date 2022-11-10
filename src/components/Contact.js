@@ -5,6 +5,15 @@ import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
 const Contact = () => {
+
+    // const [state, handleSubmit] = useForm("xlevlleq");
+    // if (state.succeeded) {
+    //     console.log("Message sent")
+    //     return <p className={"success-message"}>
+    //         I have received your message, thank you!
+    //     </p>;
+    // }
+
     return (
         <section className={"contact"} id={"connect"}>
             <Container>
